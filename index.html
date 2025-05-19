@@ -1,26 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>Lichess TV</title>
-    <style>
-      html, body {
-        margin: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-      }
-      iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        border: none;
-      }
-    </style>
   </head>
-  <body>
-    <iframe src="https://lichess.org/tv/frame?theme=brown&bg=dark"></iframe>
+  <body style="margin:0">
+    <div style="width:100%; height:800px;">
+      <iframe src="https://lichess.org/tv/frame?theme=brown&bg=dark"
+              style="width:100%; height:100%; border:none;"></iframe>
+    </div>
   </body>
 </html>
